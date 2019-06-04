@@ -1,0 +1,12 @@
+DROP DATABASE IF EXISTS amazon;
+
+CREATE DATABASE amazon;
+
+USE amazon;
+
+CREATE TABLE inventory(
+itemID INT NOT NULL AUTO_INCREMENT,
+itemName VARCHAR(30),
+itemCost INT NOT NULL,
+itemQuantity INT NOT NULL
+)
