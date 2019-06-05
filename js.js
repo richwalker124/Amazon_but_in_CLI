@@ -11,7 +11,7 @@ var inquire = require("inquirer")
 var connection = mysql.createConnection({
     host : "localhost",
     user : "root",
-    port : 3669,
+    port : 3306,
 
     password : "Dcsd138409",
     database : "amazon"
@@ -19,6 +19,7 @@ var connection = mysql.createConnection({
 
 
 connection.connect(function(err){
-    if (err) throw err
+    if (err) throw err;
     console.log(`connected to database as connection ${connection.threadId}\n`)
+    connection.query(`SELECT itemID itemName FROM inventory`)
 })
