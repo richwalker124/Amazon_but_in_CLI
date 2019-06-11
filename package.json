@@ -1,0 +1,24 @@
+{
+  "name": "week12hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richwalker124/Amazon_but_in_CLI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richwalker124/Amazon_but_in_CLI/issues"
+  },
+  "homepage": "https://github.com/richwalker124/Amazon_but_in_CLI#readme",
+  "dependencies": {
+    "inquirer": "^6.3.1",
+    "mysql": "^2.17.1"
+  }
+}
